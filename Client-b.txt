@@ -1,0 +1,17 @@
+1. Start
+2. Initialize starting position (x = 0, y = 0)
+3. Set `destination` position (example: x = 5, y = 7)
+4. WHILE current position (x, y) is not equal to `destination`
+    a. Display current position to user
+    b. Prompt user to enter a direction to move (north, south, east, or west)
+    c. Read direction input
+    d. IF direction is "north" THEN
+        i. Increment y by 1
+    e. ELSE IF direction is "south" THEN
+        i. Decrement y by 1
+    f. ELSE IF direction is "east" THEN
+        i. Increment x by 1
+    g. ELSE IF direction is "west" THEN
+        i. Decrement x by 1
+5. Output "Congratulations! You have reached your destination."
+6. End
