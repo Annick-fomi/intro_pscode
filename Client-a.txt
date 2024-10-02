@@ -1,0 +1,15 @@
+1. Start
+2. Generate a random number between 1 and 10 (store it as `targetNumber`)
+3. Initialize a Boolean variable `guessedCorrectly` to False
+4. FOR `attempt` from 1 to 3
+    a. Prompt player to guess a number between 1 and 10
+    b. Read player’s guess (store it as `playerGuess`)
+    c. IF `playerGuess` is equal to `targetNumber` THEN
+        i. Output "Congratulations! You guessed the correct number in " + `attempt` + " tries."
+        ii. Set `guessedCorrectly` to True
+        iii. BREAK the loop
+    d. ELSE
+        i. Output "Incorrect guess. Try again."
+5. IF `guessedCorrectly` is False THEN
+    a. Output "Sorry, you've used all your attempts. The correct number was " + `targetNumber`
+6. End
