@@ -1,0 +1,6 @@
+1. Start
+2. Initialize `packageCount` to 2
+3. WHILE `packageCount` is less than or equal to 50
+    a. Output `packageCount`
+    b. Increment `packageCount` by 2
+4. End
